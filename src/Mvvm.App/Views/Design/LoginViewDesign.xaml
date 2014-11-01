@@ -1,0 +1,19 @@
+﻿<!--<Window x:Class="Mvvm.App.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Mvvm.ViewModel;assembly=Mvvm.ViewModel"
+        Title="LoginView" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Height="25" Text="{Binding Username}"></TextBox>
+        <TextBox Grid.Row="1" Height="25" Text="{Binding Password}"></TextBox>
+        <Button Grid.Row="3" Command="{Binding Login}"></Button>
+        <TextBox Grid.Row="2" Background="Chartreuse" Height="25" Text="{Binding Status}"></TextBox>
+    </Grid>
+</Window>-->

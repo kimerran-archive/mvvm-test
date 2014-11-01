@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:Mvvm.ViewModel;assembly=Mvvm.ViewModel">
+    <!--LoginView -->
+    <DataTemplate DataType="{x:Type vm:LoginViewModel}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" Height="25" Text="{Binding Username}"></TextBox>
+            <TextBox Grid.Row="1" Height="25" Text="{Binding Password}"></TextBox>
+            <Button Grid.Row="3" Command="{Binding Login}"></Button>
+            <TextBox Grid.Row="2" Background="Chartreuse" Height="25" Text="{Binding Status}"></TextBox>
+        </Grid>
+    </DataTemplate>
+    <!--HomeView-->
+    <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+        <TextBox Text="{Binding Message}"></TextBox>
+    </DataTemplate>
+</ResourceDictionary>

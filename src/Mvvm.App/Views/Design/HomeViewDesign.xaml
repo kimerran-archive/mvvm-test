@@ -1,0 +1,8 @@
+﻿<Window x:Class="Mvvm.App.Views.Design.HomeViewDesign"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HomeViewDesign" Height="300" Width="300">
+    <Grid>
+        <TextBox Text="{Binding Message}"></TextBox>
+    </Grid>
+</Window>
